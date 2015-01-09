@@ -2,6 +2,11 @@ class Student
   attr_accessor :computer
   attr_accessor :first_name
   attr_accessor :last_name
+  
+  def initialize
+    self.first_name = "Sally"
+    self.last_name = "Kingston"
+  end
 
   def full_name
     self.first_name + " " + self.last_name
