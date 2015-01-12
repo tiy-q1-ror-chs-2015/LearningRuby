@@ -1,0 +1,28 @@
+body {
+	background-color: plum;
+}
+
+h1 {
+	background-color: aliceblue;
+}
+
+a {
+	background-color: mediumseagreen;
+}
+
+.batman-image {
+	height: 50%;
+	width: 50%;
+}
+
+div.hw2 {
+	background-color: rgb(255, 0, 255);
+}
+
+div.mmh {
+	background-color: #FFFFFF;
+}
+
+span#hw {
+	background-color: rgba(255, 0, 255, .25);	
+}
