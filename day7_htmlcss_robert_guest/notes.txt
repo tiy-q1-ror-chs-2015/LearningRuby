@@ -1,0 +1,23 @@
+- 3 HTML pages
+- CSS for prettieness
+
+xp
+xfont-family
+xtext-shadow
+xpadding
+text-decoration
+Xtext-align
+xdisplay
+xmargin
+xfloat
+list-style
+border
+  font-stretch
+  outline-style
+line-height
+box-shadow
+background
+word-spacing & letter-spacing
+color
+rotate (part of transform?)
+:hover
