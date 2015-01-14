@@ -1,0 +1,10 @@
+<!-- puts @students -->
+<a href="/">Back</a>
+<%= @students %>
+<%= @coolest_person_in_the_world %>
+<br>
+<% @students.each do |student| %>
+	<strong><%= student[:first_name] %></strong>
+	<strong><%= student[:last_name] %></strong>
+	<br>
+<% end %>
