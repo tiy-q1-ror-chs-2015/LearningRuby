@@ -1,0 +1,14 @@
+<h6>List</h6>
+<a href="/new">Create horse</a>
+<ul>
+	<% @horses.each do |horse|%>
+		<li>
+			<strong><a href="/horse/<%= horse.id %>"><%= horse.name %></a></strong>
+			<%= horse.breed %>
+			<%= horse.age %>
+			<%= horse.color %>
+			<%= horse.weight %>
+			<!-- <a href="/delete_horse/<%= horse.id %>">Delete</a> -->
+		</li>
+	<% end %>
+</ul>
